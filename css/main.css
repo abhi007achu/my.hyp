@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: 'Roboto' sans-serif;
+  background-color: #e9eb85;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: -webkit-gradient(linear, left top, right top, from(#31CDB0), color-stop(#2C8EC4), to(#3551A4));
+  background-image: linear-gradient(to right, #31CDB0, #2C8EC4, #3551A4);
+  padding-bottom: 5px;
+  z-index: 999;
+}
+
+.navbar img {
+  position: relative;
+  left: 3%;
+  padding-top: 5px;
+}
+
+.navbar nav {
+  position: relative;
+  left: 80%;
+  padding-top: 10px;
+}
+
+.navbar nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar nav ul li {
+  padding-right: 20px;
+}
+
+.navbar nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.filler {
+  padding-top: 10%;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container div {
+  margin: 0% 5%;
+  text-align: center;
+}
+
+.container .imgc {
+  border: 0;
+  border-radius: 25%;
+  width: 300px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.container .imgc:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 18px 19px 24px -6px #5c343e;
+  box-shadow: 18px 19px 24px -6px #5c343e;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+h1 {
+  padding-left: 10px;
+}
+
+.about-it {
+  margin-left: 3%;
+}
+
+.about-it .size-control {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 3%;
+}
+
+.contact .form-group {
+  margin-right: 20px;
+}
+
+.contact .form-group .form-input {
+  font-size: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 25px;
+  border: 0;
+  border-radius: 50px;
+  color: wheat;
+  background-image: -webkit-gradient(linear, left top, right top, from(#31CDB0), color-stop(#2C8EC4), to(#3551A4));
+  background-image: linear-gradient(to right, #31CDB0, #2C8EC4, #3551A4);
+  font-size: 25px;
+  cursor: pointer;
+  outline: none;
+}
+
+.map-wind {
+  border-radius: 15px;
+  width: 700px;
+  height: 500px;
+}
+
+.foot {
+  text-align: center;
+  color: whitesmoke;
+  background-color: #3551A4;
+  padding-bottom: 0.1%;
+}
+
+.foot h3 {
+  padding-top: 1%;
+  font-weight: lighter;
+}
+/*# sourceMappingURL=main.css.map */
